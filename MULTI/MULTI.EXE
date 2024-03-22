@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <sectionGroup name="Layouts" type="System.Configuration.ConfigurationSectionGroup, System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" >
+      <section name="Factura_3" type="MULTI.ConfigManager+Section, MULTI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+      <section name="Factura" type="MULTI.ConfigManager+Section, MULTI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+      <section name="Factura_2" type="MULTI.ConfigManager+Section, MULTI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+      <section name="Factura2" type="MULTI.ConfigManager+Section, MULTI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+      <section name="file0" type="MULTI.ConfigManager+Section, MULTI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+      <section name="file1" type="MULTI.ConfigManager+Section, MULTI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    </sectionGroup>
+    <sectionGroup name="Paths" type="System.Configuration.ConfigurationSectionGroup, System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" >
+      <section name="SaveIn" type="MULTI.ConfigManager+Section, MULTI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    </sectionGroup>
+  </configSections>
+  <connectionStrings>
+    <add name="Pruebas_Multi" connectionString="Data Source=192.100.10.6;Initial Catalog=Pruebas_Multi;User ID=sa;Password=Sql@dmin1" />
+  </connectionStrings>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.8" />
+  </startup>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="log4net" publicKeyToken="669e0ddf0bb1aa2a" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-2.0.15.0" newVersion="2.0.15.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="CrystalDecisions.Shared" publicKeyToken="692fbea5521e1304" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-13.0.4000.0" newVersion="13.0.4000.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="CrystalDecisions.ReportAppServer.Prompting" publicKeyToken="692fbea5521e1304" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-13.0.4000.0" newVersion="13.0.4000.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="CrystalDecisions.ReportAppServer.CubeDefModel" publicKeyToken="692fbea5521e1304" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-13.0.4000.0" newVersion="13.0.4000.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="CrystalDecisions.ReportAppServer.DataSetConversion" publicKeyToken="692fbea5521e1304" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-13.0.4000.0" newVersion="13.0.4000.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="CrystalDecisions.ReportAppServer.ClientDoc" publicKeyToken="692fbea5521e1304" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-13.0.4000.0" newVersion="13.0.4000.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="CrystalDecisions.ReportAppServer.XmlSerialize" publicKeyToken="692fbea5521e1304" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-13.0.4000.0" newVersion="13.0.4000.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="CrystalDecisions.CrystalReports.Engine" publicKeyToken="692fbea5521e1304" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-13.0.4000.0" newVersion="13.0.4000.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="CrystalDecisions.ReportAppServer.Controllers" publicKeyToken="692fbea5521e1304" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-13.0.4000.0" newVersion="13.0.4000.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="CrystalDecisions.ReportAppServer.ReportDefModel" publicKeyToken="692fbea5521e1304" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-13.0.4000.0" newVersion="13.0.4000.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="CrystalDecisions.ReportAppServer.CommonControls" publicKeyToken="692fbea5521e1304" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-13.0.4000.0" newVersion="13.0.4000.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="CrystalDecisions.ReportAppServer.CommonObjectModel" publicKeyToken="692fbea5521e1304" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-13.0.4000.0" newVersion="13.0.4000.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="CrystalDecisions.ReportAppServer.CommLayer" publicKeyToken="692fbea5521e1304" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-13.0.4000.0" newVersion="13.0.4000.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="CrystalDecisions.ReportAppServer.DataDefModel" publicKeyToken="692fbea5521e1304" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-13.0.4000.0" newVersion="13.0.4000.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="CrystalDecisions.ReportAppServer.ObjectFactory" publicKeyToken="692fbea5521e1304" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-13.0.4000.0" newVersion="13.0.4000.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+  <Layouts>
+    <Factura_3 type="Factura 3" value="C:\Users\ASAEL\Documents\code\MULTI\CFDI4.02.rpt" />
+    <Factura type="Factura" value="C:\Users\ASAEL\Documents\code\MULTI\invoice.rpt" />
+    <Factura_2 type="Factura 2" value="C:\Users\ASAEL\Documents\code\MULTI\invoice.rpt" />
+    <Factura2 type="Factura2" value="C:\Users\ASAEL\Documents\code\MULTI\invoice.rpt" />
+    <file0 type="Factura" value="C:\Users\ASAEL\Documents\code\MULTI\invoice.rpt" />
+    <file1 type="Complemento de pago" value="C:\Users\ASAEL\Documents\code\MULTI\CFDI4.0.rpt" />
+  </Layouts>
+  <Paths>
+    <SaveIn type="SaveIn" value="C:\Users\ASAEL\Desktop\" />
+  </Paths>
+</configuration>
